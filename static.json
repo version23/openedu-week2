@@ -1,9 +1,14 @@
 {
-  "headers":{
+	"headers":{
       "*":{
-      "X-Author": "version23",
-      "Content-Type" : "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
+		"X-Author": "version23",
+		"Content-Type" : "text/plain; charset=UTF-8",
+		"Access-Control-Allow-Origin": "*"
             }
+	"redirects": {
+		"/login.html": {
+      "url": "*/login/",
+      "status": 302
+    }
   }
 }
