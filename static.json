@@ -3,4 +3,10 @@
 	"/*.html": "index.html",
     	"/login/": "login.html"
 	}
+	"headers":{
+      	"/*":{
+      	"X-Author": "version23",
+      	"Access-Control-Allow-Origin": "*"
+            }
+	}
 }
