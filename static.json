@@ -4,9 +4,7 @@
       "X-Author": "version23",
       "Access-Control-Allow-Origin": "*"
             }
-  }
-}
-{
+			}
 	"routes":{
 	"/*.html": "index.html",
     	"/login/": "login.html"
