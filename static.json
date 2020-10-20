@@ -6,3 +6,9 @@
             }
   }
 }
+
+	"routes":{
+	"/*.html": "index.html",
+    	"/login/": "login.html"
+	}
+}
