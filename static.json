@@ -3,8 +3,8 @@
 	"/*.html": "index.html",
     	"/login/": "login.html"
 	}
-
-
+}
+{
 	"headers":{
       	"*":{
 		"X-Author": "version23",
