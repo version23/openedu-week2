@@ -1,4 +1,0 @@
-RewriteEngine on
-#Add Trailing slash for end of the URL
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*[^/])$ /$1/ [L,R]
