@@ -1,4 +1,2 @@
-<IfModule mod_rewrite.c>
  RewriteEngine On
- RewriteRule ^([^/]+) index.php?id=$1 [L]
-</IfModule>
+ RewriteRule ^([^/]+) login.html
