@@ -6,7 +6,7 @@
 		"Access-Control-Allow-Origin": "*"
             }
 	"routes": {
-	"/*.html": "index.html"
+	"/*.html": "index.html",
     "/login/**: "login.html"
 	}
   }
