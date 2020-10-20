@@ -7,7 +7,7 @@
             }
 	"routes": {
 	"/*.html": "index.html",
-    "/login/**: "login.html"
+    	"/login/": "login.html"
 	}
   }
 }
